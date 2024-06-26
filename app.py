@@ -14,7 +14,7 @@ CLIENT_ID = os.getenv('CLIENT_ID', '90b48346560e626b893d0fdedde85c5ee2cd3108950c
 CLIENT_SECRET = os.getenv('CLIENT_SECRET', '0384ba31da0d0c6057f902597fc98ba8fb5d7accb0908a6a019e8f3f56f3f715')
 REDIRECT_URI = 'http://localhost:3200'
 STATE = '11136964'
-cred = credentials.Certificate('healthy-676e4-firebase-adminsdk-9y97l-8430038db6.json')
+cred = credentials.Certificate('credentials/healthy-676e4-firebase-adminsdk-9y97l-8430038db6.json')
 firebase_admin.initialize_app(cred, {'databaseURL': 'https://healthy-676e4-default-rtdb.firebaseio.com'})
 
 
